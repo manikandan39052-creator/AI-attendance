@@ -1,0 +1,27 @@
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+*.venv/
+venv/
+.venv/
+
+# Local application data and generated outputs
+database/*.db
+logs/
+backups/
+exports/
+reports/*.xlsx
+trainer/*.pkl
+
+# Biometric training data must not be published
+dataset/
+
+# Build and editor artifacts
+build/
+dist/
+*.spec
+.vscode/
+.idea/
+
+# Environment-specific secrets
+.env
